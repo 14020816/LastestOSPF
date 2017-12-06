@@ -12,6 +12,7 @@ namespace LastestVersionOSPF_OK
         {
             OSPF myOSPF = new OSPF();
             myOSPF.Run();
+            myOSPF.ComandLine();
             Console.Read();
         }
     }
